@@ -3,6 +3,7 @@ import numpy as np
 from tqdm import tqdm
 import torch
 from sklearn.utils import shuffle
+import pandas as pd
 
 from torch_geometric.data import InMemoryDataset, download_url
 from torch_geometric.data import Data, DataLoader
